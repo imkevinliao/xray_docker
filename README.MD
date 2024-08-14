@@ -1,7 +1,7 @@
 # 快速开始
 
 ```
-EXTERNAL_PORT=7799 docker run -d --name xray_reality --restart=always -p $EXTERNAL_PORT:443 -e EXTERNAL_PORT=$EXTERNAL_PORT  -e SERVERNAMES="addons.mozilla.org" -e DEST="addons.mozilla.org:443" wulabing/xray_docker_reality:latest
+EXTERNAL_PORT=7799 && docker run -d --name xray_reality --restart=always -p $EXTERNAL_PORT:443 -e EXTERNAL_PORT=$EXTERNAL_PORT  -e SERVERNAMES="addons.mozilla.org" -e DEST="addons.mozilla.org:443" wulabing/xray_docker_reality:latest
 ```
 
 
